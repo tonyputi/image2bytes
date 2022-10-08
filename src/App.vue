@@ -40,7 +40,9 @@ export default {
       flipX: false,
       flipY: false,
       conversionMethod: 'horizontal1bit',
-      prefix: 'epd_bitmap_'
+      prefix: 'epd_bitmap_',
+      screenWidth: 128,
+			screenHeight: 64,
     }
   }),
   methods: {
